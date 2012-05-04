@@ -1,0 +1,45 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: #222;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, a:hover, a:active, a:visited {
+  color: #666;
+}
+
+p {
+  line-height: 22px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+ul li {
+  margin: 20px auto;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 12px;
+}
