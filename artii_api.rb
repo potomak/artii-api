@@ -1,7 +1,7 @@
 require 'goliath'
 require 'artii'
 
-VERSION = '0.1.0'.freeze
+VERSION = '0.1.1'.freeze
 
 class MakeAsciiArt < Goliath::API
   use Goliath::Rack::Params
