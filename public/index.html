@@ -10,14 +10,24 @@
   </head>
   <body>
       <header class='wrapper'>
-        <h1>
-          <a href='/'>ASCII art API</a>
-        </h1>
+        <pre>
+            _____  _____ _____ _____              _              _____ _____ 
+     /\    / ____|/ ____|_   _|_   _|            | |       /\   |  __ \_   _|
+    /  \  | (___ | |      | |   | |     __ _ _ __| |_     /  \  | |__) || |  
+   / /\ \  \___ \| |      | |   | |    / _` | '__| __|   / /\ \ |  ___/ | |  
+  / ____ \ ____) | |____ _| |_ _| |_  | (_| | |  | |_   / ____ \| |    _| |_ 
+ /_/    \_\_____/ \_____|_____|_____|  \__,_|_|   \__| /_/    \_\_|   |_____|
+        </pre>
       </header>
 
-      <h2>How to make ASCII art</h2>
+      <h2>How to ASCIIfy</h2>
       <p>Make HTTP GET requests to <a href="/make">/make</a> and set the <em>text</em> parameter.</p> 
       <p>Example: <a href="/make?text=ASCII+art">/make?text=ASCII+art</a>
+      <p>Optionally you can set the <em>font</em> parameter to specify the output font.</p>
+      <p>Example: <a href="/make?text=ASCII+art&font=trek">/make?text=ASCII+art&font=trek</a>
+
+      <h2>Available fonts</h2>
+      <p>You can get a list of all available fonts at <a href="/fonts_list">/fonts_list</a>
 
       <footer class='wrapper'>
         <p>
